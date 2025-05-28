@@ -1,4 +1,4 @@
-# My V0 Project
+# My Third Year  Project
 
 A modern web application built with Next.js, React, Tailwind CSS, and better-sqlite3 for database management. This project includes features for student predictions, feedback, authentication, and more.
 
