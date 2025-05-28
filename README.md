@@ -1,5 +1,5 @@
 # 🎓 Student Marks Prediction System
-
+📘 **This project was developed as part of my Bachelor of Computer Applications (BCA) Final Year Project.**
 A Smart Web App for Academic Insight and Prediction
 
 A modern, full-stack web application built using Next.js, React, Tailwind CSS, and better-sqlite3. This system enables students to predict their CGPA, submit feedback, and gives admins deep insights via a dedicated dashboard.
