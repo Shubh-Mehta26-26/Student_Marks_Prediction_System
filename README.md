@@ -1,22 +1,25 @@
-# My Third Year  Project
+# 🎓 Student Marks Prediction System
 
-A modern web application built with Next.js, React, Tailwind CSS, and better-sqlite3 for database management. This project includes features for student predictions, feedback, authentication, and more.
+A Smart Web App for Academic Insight and Prediction
 
-## Features
-- Student registration and authentication
-- Prediction and feedback system
-- Admin dashboard
-- PDF generation
-- Responsive UI with Tailwind CSS
-- Uses better-sqlite3 for fast, reliable local database
+A modern, full-stack web application built using Next.js, React, Tailwind CSS, and better-sqlite3. This system enables students to predict their CGPA, submit feedback, and gives admins deep insights via a dedicated dashboard.
 
-## Getting Started
+## 🚀 Features
+- 🔐 Secure user login & registration  
+- 📊 AI-powered CGPA prediction system  
+- ⭐ Animated feedback with sentiment response  
+- 📁 Admin dashboard with filters & analytics  
+- 📥 Downloadable PDF reports  
+- 🌙 Light/Dark mode toggle  
+- ⚡ Powered by **Next.js** & **better-sqlite3**c
+
+## 🛠️ Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - [pnpm](https://pnpm.io/) (or use npm/yarn, but pnpm is recommended)
 
-### Installation
+### 📦 Installation
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
@@ -27,14 +30,14 @@ A modern web application built with Next.js, React, Tailwind CSS, and better-sql
    pnpm install
    ```
 
-### Development
+### 🔧 Development
 To start the development server:
 ```bash
 pnpm run dev
 ```
 Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Build for Production
+### 🏗️ Build for Production
 To build the app for production:
 ```bash
 pnpm run build
@@ -44,32 +47,33 @@ To start the production server:
 pnpm run start
 ```
 
-### Database
+### 🧬 Database
 - The app uses a local SQLite database (`database.db`) created automatically in the project root.
 - Tables for students, predictions, and feedback are created on first run.
 
-### Environment Variables
+### 🌐 Environment Variables
 If you need to add environment variables (e.g., for API keys), create a `.env.local` file in the root directory. Example:
 ```
 # .env.local
 NEXT_PUBLIC_API_URL=http://localhost:3000
 ```
 
-## Project Structure
+## 🧾 Project Structure
 - `app/` - Next.js app directory (routes, pages, API)
 - `lib/` - Database, ML, and utility logic
 - `components/` - React components
 - `public/` - Static assets (images, logos)
 - `styles/` - Global and Tailwind CSS
 
-## Scripts
+## 📜 Scripts
 - `pnpm run dev` - Start development server
 - `pnpm run build` - Build for production
 - `pnpm run start` - Start production server
 - `pnpm run lint` - Run linter
 
-## Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+## 🤝 Contributing
+Contributions are welcome!
+Feel free to submit a PR or open an issue to discuss improvements or features.
 
 ## License
 [MIT](LICENSE)
