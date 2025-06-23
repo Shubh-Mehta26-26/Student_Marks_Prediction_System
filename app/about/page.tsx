@@ -59,7 +59,7 @@ export default function AboutPage() {
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">About Our System</h1>
               <p className="text-xl text-purple-100 max-w-3xl mx-auto">
                 Learn how our AI-powered prediction system with hyperparameter tuning and model explanation works to
-                help you achieve academic success.
+                help you achieve academic sucess.
               </p>
             </motion.div>
           </div>
