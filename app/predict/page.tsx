@@ -42,11 +42,11 @@ export default function PredictPage() {
     previousCGPA: 7.5,
     interest: 75,
     subjects: [
-      { name: "Mathematics", marks: 45 },
-      { name: "Physics", marks: 42 },
-      { name: "Computer Science", marks: 48 },
+      { name: "C Programming", marks: 45 },
+      { name: "DSA", marks: 42 },
+      { name: "Java Programming", marks: 48 },
     ],
-    practicalSubjects: [{ name: "Physics Lab", marks: 22 }],
+    practicalSubjects: [{ name: "DSA Lab", marks: 22 }],
   })
 
   // Redirect if not authenticated
@@ -438,7 +438,7 @@ export default function PredictPage() {
                                   value={subject.name}
                                   onChange={(e) => handlePracticalSubjectChange(index, "name", e.target.value)}
                                   className="bg-purple-950/50 border-purple-500/30 text-white"
-                                  placeholder="e.g. Physics Lab"
+                                  placeholder="e.g. DSA Lab"
                                   required
                                 />
                               </div>
